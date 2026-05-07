@@ -1,0 +1,2 @@
+accNo: 102 | Deposited: 500.0
+accNo: 102 | Withrawn: 5000.0

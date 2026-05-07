@@ -1,0 +1,5 @@
+----- INVOICE -----
+Order ID: 112
+Product: Book
+Quantity: 1
+Total Price: ₹530.0

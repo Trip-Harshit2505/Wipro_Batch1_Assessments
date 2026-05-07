@@ -1,0 +1,6 @@
+----- Medical Report -----
+Patient ID: 102
+Name: Toxic
+Age: 23
+Disease: 42
+Treatment: Medicines + Rest
