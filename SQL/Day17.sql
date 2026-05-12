@@ -11,12 +11,13 @@ INSERT INTO users VALUES('admin','1234');
 
 SELECT * FROM users;
 
--- New DATA students
+-- New DATA employee
 
-CREATE TABLE students(
+CREATE TABLE employee(
 	id INT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(200)
+    name VARCHAR(80),
+    department VARCHAR(50),
+    salary DOUBLE
 );
 
-select * from students;
+Select * from employee;
