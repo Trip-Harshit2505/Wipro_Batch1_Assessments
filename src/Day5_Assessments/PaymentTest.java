@@ -8,20 +8,20 @@ class PaymentImpl implements PaymentService {
 
 	public void processPayment(double amount) {
 
-		try {
-			if (amount <= 0) {
-				throw new IllegalArgumentException("Invalid amount!");
-			}
+        try {
+            if (amount <= 0) {
+                throw new IllegalArgumentException("Invalid amount!");
+            }
 
-			System.out.println("Processing payment of ₹" + amount);
+            System.out.println("Processing payment of ₹" + amount);
 
-		} catch (IllegalArgumentException e) {
-			System.out.println("Exception: " + e.getMessage());
+        } catch (IllegalArgumentException e) {
+            System.out.println("Exception: " + e.getMessage());
 
-		} finally {
-			System.out.println("Transaction attempt logged.");
-        }
-    }
+        } finally {
+            System.out.println("Transaction attempt logged.");
+        }
+    }
 }
 
 public class PaymentTest {

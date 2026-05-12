@@ -8,9 +8,10 @@ class Payment{
 
 class UPI extends Payment{
 
-    public void processPayment() {
-        System.out.println("UPI Payment");
-    }
+	// uncomment for test
+//    public void processPayment() {
+//        System.out.println("UPI Payment");
+//    }
 	
 	 public void show() {
 	        System.out.println("UPI Method");

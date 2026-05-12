@@ -7,8 +7,9 @@ final class SecurityModule{
 	}
 }
 
-class Hacker extends SecurityModule{
-}
+// Uncomment for test
+//class Hacker extends SecurityModule{
+//}
 
 public class Security_Test {
 

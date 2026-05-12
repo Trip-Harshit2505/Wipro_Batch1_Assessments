@@ -23,7 +23,8 @@ public class Banking {
 		BankAccount b = new BankAccount(123, "Modi");
 		b.displayInfo();
 		
-		b.accountNumber = 789;
+		// Uncomment for test
+//		b.accountNumber = 789; 
 	}
 
 }
